@@ -239,7 +239,7 @@ a {
 }
 
 .services {
-  padding: 6rem 0;
+  padding: 5rem 0;
   color: #3d4045;
 }
 .services__wrapper {
@@ -255,5 +255,18 @@ a {
   }
 }
 .services h2 {
-  font-size: clamp(2rem, 2vw, 2rem);
+  font-size: clamp(1rem, 1.5vw, 2rem);
+}
+.services h3 {
+  font-size: clamp(0.5rem, 1.5vw, 1.5rem);
+}
+.services p {
+  font-size: 19px;
+  padding: 0 7rem 0 7rem;
+}
+
+.services__type p {
+  font-size: 13px;
+  padding: 0 5rem 0 5rem;
+  margin-top: 10px;
 }/*# sourceMappingURL=main.min.css.map */
