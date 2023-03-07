@@ -30,7 +30,7 @@ a {
 }
 
 .btn.bg--primary {
-  padding: 1.2rem 2rem;
+  padding: 1rem 7rem;
   color: #f2f2f2;
   font-weight: 700;
   font-size: 1.4rem;
@@ -51,7 +51,7 @@ a {
 }
 
 .btn.bg--dark {
-  padding: 1.2rem 2rem;
+  padding: 1rem 7rem;
   color: #f2f2f2;
   font-weight: 700;
   font-size: 1.4rem;
@@ -72,7 +72,7 @@ a {
 }
 
 .btn.bg--light {
-  padding: 1.2rem 2rem;
+  padding: 1rem 7rem;
   color: #f2f2f2;
   font-weight: 700;
   font-size: 1.4rem;
@@ -93,7 +93,7 @@ a {
 }
 
 .btn.bg--gray {
-  padding: 1.2rem 2rem;
+  padding: 1rem 7rem;
   color: #f2f2f2;
   font-weight: 700;
   font-size: 1.4rem;
@@ -255,13 +255,13 @@ a {
   }
 }
 .services h2 {
-  font-size: clamp(1rem, 1.5vw, 2rem);
+  font-size: clamp(2.3rem, 1.5vw, 1rem);
 }
 .services h3 {
-  font-size: clamp(0.5rem, 1.5vw, 1.5rem);
+  font-size: clamp(1.5rem, 1.5vw, 1.5rem);
 }
 .services p {
-  font-size: 19px;
+  font-size: 20px;
   padding: 0 7rem 0 7rem;
 }
 
@@ -269,4 +269,117 @@ a {
   font-size: 13px;
   padding: 0 5rem 0 5rem;
   margin-top: 10px;
+}
+
+.offer {
+  padding: 3rem 0 4rem;
+  background-color: #3d4045;
+  text-align: center;
+}
+.offer__wrapper h2 {
+  padding: 1.5rem;
+  font-size: 3rem;
+  color: #f2f2f2;
+}
+
+.founderCeo {
+  padding: 5rem;
+}
+@media screen and (max-width: 48rem) {
+  .founderCeo__wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 3rem;
+  }
+}
+.founderCeo h2 {
+  font-size: 40px;
+  margin-bottom: 1rem;
+}
+.founderCeo p {
+  margin-bottom: 8rem;
+  font-size: 19px;
+}
+
+.founderCeo__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.clinic {
+  background-color: rgb(234, 234, 234);
+  padding: 5rem;
+}
+@media screen and (max-width: 48rem) {
+  .clinic__wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+  }
+}
+.clinic h2 {
+  font-size: 39px;
+  margin-bottom: 1rem;
+}
+.clinic p {
+  margin-bottom: 3rem;
+  font-size: 19px;
+}
+
+.clinic__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.names {
+  padding: 5rem 0;
+  color: #3d4045;
+}
+.names__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+@media screen and (max-width: 48rem) {
+  .names__wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+  }
+}
+.names hr {
+  width: 30%;
+  margin: 2rem auto;
+}
+.names h2 {
+  font-size: clamp(1.5rem, 1.5vw, 1rem);
+}
+.names h3 {
+  font-size: clamp(0.5rem, 1.5vw, 1rem);
+}
+.names p {
+  font-size: 15px;
+  padding: 0 3rem 0 3rem;
+}
+
+.faqs {
+  background-color: rgb(234, 234, 234);
+  padding: 5rem;
+}
+.faqs__wrapper h2 {
+  font-size: 40px;
+}
+.faqs__wrapper p {
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.faqs__qas h2 {
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 20px;
 }/*# sourceMappingURL=main.min.css.map */
