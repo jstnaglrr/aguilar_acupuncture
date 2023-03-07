@@ -404,7 +404,7 @@ a {
   }
 }
 .information hr {
-  width: 65%;
+  width: 73%;
   margin: 2rem auto;
   border: 1px solid #e85d64;
 }
@@ -450,4 +450,16 @@ a {
 
 .links_credits p {
   justify-content: center;
+}
+.links_credits p__wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 3rem;
+}
+@media screen and (max-width: 48rem) {
+  .links_credits p__wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 3 rem;
+  }
 }/*# sourceMappingURL=main.min.css.map */

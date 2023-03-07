@@ -160,7 +160,7 @@
         }
     }
     hr{
-        width: 65%;
+        width: 73%;
         margin: 2rem auto;
         border: 1px solid $clr-primary;
     }
@@ -203,5 +203,12 @@
     }
 }
 .links_credits p{
+    &__wrapper{
+        @include grid(5, 3rem);
+        @include mediaQuery() {
+            @include grid(5, 3  rem);
+        }
+    }
     justify-content: center;
+    
 }
