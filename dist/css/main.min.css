@@ -289,7 +289,7 @@ a {
   .founderCeo__wrapper {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 3rem;
+    grid-gap: 2rem;
     justify-content: center;
   }
 }

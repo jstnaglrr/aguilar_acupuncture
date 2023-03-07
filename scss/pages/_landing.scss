@@ -63,7 +63,7 @@
     padding: 5rem;
     &__wrapper{
         @include mediaQuery() {
-            @include grid(1, 3rem);
+            @include grid(1, 2rem); 
             justify-content: center;
         }
         h2{
