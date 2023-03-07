@@ -403,7 +403,7 @@ a {
 .information hr {
   width: 65%;
   margin: 2rem auto;
-  color: #e85d64;
+  border: 1px solid #e85d64;
 }
 .information img {
   height: 450px;
