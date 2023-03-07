@@ -444,6 +444,9 @@ a {
   justify-content: space-between;
   align-items: center;
 }
+.links span {
+  color: #f2f2f2;
+}
 .links p {
   color: #f2f2f2;
 }
