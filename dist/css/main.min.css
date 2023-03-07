@@ -290,13 +290,14 @@ a {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 3rem;
+    justify-content: center;
   }
 }
-.founderCeo h2 {
+.founderCeo__wrapper h2 {
   font-size: 40px;
   margin-bottom: 1rem;
 }
-.founderCeo p {
+.founderCeo__wrapper p {
   margin-bottom: 8rem;
   font-size: 19px;
 }
@@ -317,6 +318,7 @@ a {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 2rem;
+    justify-content: center;
   }
 }
 .clinic h2 {
@@ -398,6 +400,7 @@ a {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 2rem;
+    justify-content: center;
   }
 }
 .information hr {
@@ -426,5 +429,25 @@ a {
 .information__content {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.links {
+  padding: 5rem;
+  background-color: #e85d64;
+}
+.links h3 {
+  color: #f2f2f2;
+}
+.links ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.links p {
+  color: #f2f2f2;
+}
+
+.links_credits p {
   justify-content: center;
 }/*# sourceMappingURL=main.min.css.map */

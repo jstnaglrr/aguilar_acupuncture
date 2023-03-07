@@ -64,15 +64,16 @@
     &__wrapper{
         @include mediaQuery() {
             @include grid(1, 3rem);
+            justify-content: center;
         }
-    }
-    h2{
-        font-size: 40px;
-        margin-bottom: 1rem;
-    }
-    p{
-        margin-bottom: 8rem;
-        font-size: 19px;
+        h2{
+            font-size: 40px;
+            margin-bottom: 1rem;
+        }
+        p{
+            margin-bottom: 8rem;
+            font-size: 19px;
+        }
     }
 }
 
@@ -88,6 +89,7 @@
     &__wrapper{
         @include mediaQuery() {
             @include grid(1, 2rem);
+            justify-content: center;
         }
     }
     h2{
@@ -154,6 +156,7 @@
         @include grid(2, 2rem);
         @include mediaQuery() {
             @include grid(1, 2rem);
+            justify-content: center;
         }
     }
     hr{
@@ -182,5 +185,23 @@
 .information__content{
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.links{
+    padding: 5rem;
+    background-color: $clr-primary;
+    h3{
+        color: $clr-white;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    p{
+        color: $clr-white;
+    }
+}
+.links_credits p{
     justify-content: center;
 }
